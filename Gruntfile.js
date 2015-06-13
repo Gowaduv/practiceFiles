@@ -15,10 +15,10 @@ module.exports = function(grunt) {
       }
     }
   });
-
+//seriously, I hate GitHub. Y U SO DIFFICULT?!?!
   grunt.loadNpmTasks("grunt-contrib-jshint");
   grunt.loadNpmTasks("grunt-jscs");
 
-  grunt.registerTask("default", [ "jshint", "jscs"]);
+  grunt.registerTask("default", ["jshint", "jscs"]);
 
 };
