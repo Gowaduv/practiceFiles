@@ -1,0 +1,32 @@
+
+.number:nth-child(3n) div {
+  display: none;
+}
+.number:nth-child(5n) div {
+  display: none;
+}
+.number:nth-child(3n)::after {
+  background-color: #ddd;
+  content: "fizz";
+}
+.number:nth-child(5n)::after {
+  color: #ff0000;
+  content: "buzz";
+}
+.number:nth-child(15n)::after {
+  color: #ff0000;
+  background-color: #ddd;
+  content: "fizz buzz";
+}
+ol, ul {
+  list-style-type: none;
+  width: 10%;
+  text-align: center;
+}
+
+.fizz {
+  background-color: #ddd;
+}
+.buzz {
+  color: #ff0000;
+}

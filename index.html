@@ -1,0 +1,57 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>FizzBuzz</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="fizzbuzz.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+  <h4>
+    FizzBuzz: for all integers that are evenly divisble by 3, "fizz" will be displayed with a gray background. For all integers evenly divisble by 5, "buzz" will be displayed in red. For all integers evenly divible by both 3 and 5, "fizzbuzz" will be displayed
+    on a gray background with red numbers.
+  </h4>
+  <h4>For the series 1- 20 it looks like this:
+    <ol>
+      <li class="number"><div>1</div></li>
+      <li class="number"><div>2</div></li>
+      <li class="number"><div>3</div></li>
+      <li class="number"><div>4</div></li>
+      <li class="number"><div>5</div></li>
+      <li class="number"><div>6</div></li>
+      <li class="number"><div>7</div></li>
+      <li class="number"><div>8</div></li>
+      <li class="number"><div>9</div></li>
+      <li class="number"><div>10</div></li>
+      <li class="number"><div>11</div></li>
+      <li class="number"><div>12</div></li>
+      <li class="number"><div>13</div></li>
+      <li class="number"><div>14</div></li>
+      <li class="number"><div>15</div></li>
+      <li class="number"><div>16</div></li>
+      <li class="number"><div>17</div></li>
+      <li class="number"><div>18</div></li>
+      <li class="number"><div>19</div></li>
+      <li class="number"><div>20</div></li>
+    </ol>
+  </h4>
+  <h4>
+    You may enter a range as large as you like, though staying within a 100-number range is recommended for speed of response.
+  </h4>
+  <label for="start">Start Value</label>
+  <input type="number" id="start"></input>
+    <label for="finish">Finish Value</label>
+  <input type="number" id="finish"></input>
+    <label for="button">FizzBuzz me!</label>
+  <input type="submit" onClick="fizzbuzz()"></input>
+  <main>
+    <ul id="result"></ul>
+  </main>
+</body>
+<script src="fizzbuzz2.js"></script>
+
+</html>
