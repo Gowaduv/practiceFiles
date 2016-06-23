@@ -1,0 +1,23 @@
+{
+  "name": "kms-meangooglemap",
+  "version": "0.0.1",
+  "description": "scotch tutorial: mean stack google map app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "kristopher skelton, kristopher@kmskelton.com",
+  "license": "ISC",
+  "dependencies": {
+    "angular-route": "^1.5.7",
+    "body-parser": "^1.15.1",
+    "bootstrap": "^3.3.6",
+    "express": "^4.14.0",
+    "jsonwebtoken": "^7.0.1",
+    "method-override": "^2.3.6",
+    "modernizr": "^3.3.1",
+    "mongoose": "^4.5.0",
+    "morgan": "^1.7.0"
+  }
+}
